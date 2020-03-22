@@ -25,10 +25,11 @@ h3{
 }
 
 .jumbotron {
-  background-color: ;
+  background-color:inherit ;
   background-image: none;
 
   background-size: cover;
+  margin-top: : 30px;
 }
 
 p {
