@@ -29,7 +29,8 @@ h3{
   background-image: none;
 
   background-size: cover;
-  margin-top: : 30px;
+  padding: none;
+  margin-bottom: 3px;
 }
 
 p {
