@@ -6,29 +6,45 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="cover.css"
+        <link rel="stylesheet" href="cover.css">
+        <link rel="stylesheet" href="styles.css">
         <meta name="Jordan Lieber" content="JO Website">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <title>Staff PAGE 3</title>
 
 <style media="screen">
 /* Three columns side by side */
-.column {
+.colum-sm-4  {
 
 
-width: 33.0%;
+width: 50.0%;
 margin-bottom: 16px;
-padding: 0 8px;
+padding: 0 0px;
 
-
+float: left;
 
 }
 
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
-.column {
+.column-sm-4 {
   width: 100%;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+}
+}
+
+@media (min-width: 375px){
+
+    h1::before{
+      content: "Staff of Ruback & Merson P.C.";
+    }
+}
+
+@media (max-width: 374px){
+  h1::before{
+    content: "Ruback & Merson Staff";
+  }
 }
 }
 
@@ -77,6 +93,11 @@ width: 100%;
 .button:hover {
 background-color: #555;
 }
+
+#staffheader{
+
+  color: #fff
+}
 </style>
     </head>
 
@@ -87,7 +108,7 @@ background-color: #555;
     <div class="inner">
       <h3 class="masthead-brand"></h3>
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link active" href="index.html">Home</a>
         <a class="nav-link" href="practiceareas.html">Practice Areas</a>
         <a class="nav-link" href="about.html">About</a>
         <a class="nav-link" href="staff.html">Staff</a>
@@ -98,24 +119,29 @@ background-color: #555;
 
 
 
+<div class="cover-container d-flex w-100 h-100 p-0 mx-auto flex-column">
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
-
-      <div class="container" style="text-align:center">
-        <h1>Staff of  Ruback & Merson P.C.</h1>
+      <div class="container-staff">
+        <h1 id="staffheader"></h1>
           </div>
 
 
-    <div class="colum-sm-6 mx-auto " >
+    <div class="colum-sm-12  mx-auto flex-column" >
       <div class="card" style="width:100%" >
-        <img src="Leiber_J_21522_1.jpg" alt="Mike" style="width:100%;height:10%">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <img src="Leiber_J_21522_1.jpg" alt="Mike" style="width:100%;height:100%">
+        <div class="cover-container mx-auto flex-column w-100">
           <h4>Jordan Lieber</h4>
-          <p class="title">Art Director</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
+          <p class="title">Attorney</p>
+          <p>Jordan Is a transactoinal attorney. </p>
+          <p>Education: Fordham Law 2015</p>
+          <address class="staffaddress">
+            <a class="button" href="jordanlieberesq@gmail.com">Contact</a>
+            <p>jordanlieberesq@gmail.com</p>
+
+          </address>
+
+
         </div>
       </div>
     </div>

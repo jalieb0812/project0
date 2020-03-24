@@ -5,25 +5,32 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="cover.css"
+        <link rel="stylesheet" href="cover.css">
+        <link rel="stylesheet" href="variables.css">
         <meta name="Jordan Lieber" content="JO Website">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Practice Areas PAGE 2</title>
 <style media="screen">
 
-.h3{
-color: lightblue
+
+#practiceareahead,#practicep{
+color: #fff;
+
 
 }
 
+.col-sm-4{
+
+  color: #fff
+}
 
 </style>
      <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+    <!--<link href="jumbotron.css" rel="stylesheet"> this is unnecsery unless im using the jumbotron -->
     </head>
     <body class="text-center">
 
-      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <div class="cover-container d-flex h-75 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
       <h3 class="masthead-brand"></h3>
@@ -38,24 +45,40 @@ color: lightblue
   </header>
 
     <div class="container">
-      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <h1>Practice Areas- practice thing </h1>
-        <p>Our firm has three main areas of practice</p>
+      <div class="cover-container d-flex  p-3 mx-auto flex-column">
+        <h1 id="practiceareahead">Practice Areas</h1>
+        <p id="practicep">Our firm has three main areas of practice</p>
             <div class="row">
         <div class="col-sm-4">
               <h3>Real Estate</h3>
-              <p>Residential, commercial, Tenant and Landlord</p>
-              <p>We do leasing too!</p>
+              <ul>
+                <li>
+                    Residential, commercial, Tenant and Landlord
+                </li>
+
+                <li>
+                    We do leasing too!
+                </li>
+
+              </ul>
+
         </div>
         <div class="col-sm-4">
               <h3>Corporate</h3>
-              <p>Entity formation, Mergers and aquisitions.</p>
-              <p>We Represent small bussiness</p>
+
+              <ul>
+                <li>Entity formation, Mergers and aquisitions.</li>
+                <li>We Represent small bussiness</li>
+              </ul>
+
         </div>
         <div class="col-sm-4">
               <h3>Estates</h3>
-              <p>We do Wills and Trusts</p>
-              <p>We can handle all y our estate matters!</p>
+              <ul>
+                <li>We do wills and Trusts</li>
+                <li>We can handle your estate matters.</li>
+              </ul>
+
         </div>
     </div>
     </div>

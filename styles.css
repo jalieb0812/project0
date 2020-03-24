@@ -5,58 +5,47 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: scroll
-  color: lightblue;
+
 
 }
 
-h1 {
-  background-color: grey;
-  text-align: center;
+.container{
+
+
+  border: solid;
+  border-color: black;
+
+  width: 100%;
+  float: none;
+  color: #fff;
+  justify-content: center;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 36px
+
 }
 
-h2{
-    background-color:  grey;
-}
+table{
 
-h3{
-
-  color: grey;
-  text-align: center;
+  border: 1px solid blue;
+  background-color: blue;
+  color: lightgreen;
 
 }
 
+td {
+  border: 1px solid blue;
 
 
-p {
-  background-color: black;
-  color: grey;
-  text-align: center;
-
-  border-top-style: solid;
-  border-right-style: solid;
-  border-bottom-style: solid;
-  border-left-style: solid;
 }
 
-.nav-link {
+tr{
 
-  color: lightblue;
+  border: 1px solid black;
+
 }
-
-.nav-bar{
-  padding: 0rem 0rem;
-}
-
-.card-body{
-
-  background-color: grey;
-}
-
-.card-footer{
-
-  background-color: black;
-}
-
 .address {
 
   background-color: black;
@@ -67,9 +56,4 @@ p {
   border-bottom-style: solid;
   border-left-style: solid;
   text-align: center;
-}
-
-.a{
-
-  color: green;
 }
