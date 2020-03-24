@@ -1,11 +1,12 @@
 
 body {
   background-image: url("justice-background.jpg");
-  background-repeat: repeat;
+
   background-size: cover;
   background-position: center;
   background-attachment: scroll
-  ;
+  color: lightblue;
+
 }
 
 h1 {
@@ -24,14 +25,7 @@ h3{
 
 }
 
-.jumbotron {
-  background-color:inherit ;
-  background-image: none;
 
-  background-size: cover;
-  padding: none;
-  margin-bottom: 3px;
-}
 
 p {
   background-color: black;
