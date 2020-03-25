@@ -1,12 +1,42 @@
-ul {
+div {
+  font-size: 20px;
+}
+div ul {
   font-size: 20px;
   color: blue;
   background-color: lightblue;
 }
+div h5 {
+  font-size: 20px;
+  color: lightgreen;
+}
 
-ol {
-  font-size: 14px;
-  color: blue;
+.containerabout2, .containerabout1 {
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+
+.containerabout1 {
+  width: 100%;
+  border-color: black;
+  text-align: center;
+  font-weight: bold;
+  color: lightgreen;
+  font-size: 15px;
+  justify-content: center;
+  background: black;
+}
+
+.containerabout2 {
+  border-color: black;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  justify-content: center;
+  color: #fff;
+  background: grey;
 }
 
 /*# sourceMappingURL=variables.css.map */
